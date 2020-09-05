@@ -9,6 +9,7 @@ public class EnemySpawner : MonoBehaviour
     public Enemy SpawnEnemy(Enemy prototype)
     {
         m_Copy = prototype.Copy();
+
         return (Enemy)m_Copy;
     }
 }

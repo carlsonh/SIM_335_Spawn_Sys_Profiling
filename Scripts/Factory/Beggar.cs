@@ -6,7 +6,7 @@ public class Beggar : INPC
 {
     public void Speak()
     {
-        Debug.Log("Beggar Here");
+        Debug.LogWarning("Beggar Here");
     }
 
 }

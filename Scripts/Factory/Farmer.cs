@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Shopowner : INPC
+public class Farmer : INPC
 {
     public void Speak()
     {
-        Debug.Log("Shopkeep Here");
+        Debug.LogWarning("Farmer Here");
     }
 
 }
